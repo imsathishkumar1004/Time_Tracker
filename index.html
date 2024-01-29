@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Timer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>TASK TIMER</h1>
+        <div class="container">
+            
+            <table id="table">
+                <caption>SCHEDULE</caption>
+                <tr class="head">
+                    <th>TASK</th>
+                    <th>Description</th>
+                    <th>Duration</th>
+                    <th>DATE</th>
+                </tr>
+                <tr class="row">
+                    <td>Meeting</td>
+                    <td>Client Meeting</td>
+                    <td>00:50:45</td>
+                    <td>2024-01-01</td>
+                </tr>
+                <tr class="row">
+                    <td>Front-End</td>
+                    <td>Js Implementation</td>
+                    <td>02:43:34</td>
+                    <td>2024-01-01</td>
+                </tr>
+                <tr class="row">
+                    <td>Meeting</td>
+                    <td>Client Meeting</td>
+                    <td>00:50:45</td>
+                    <td>2024-01-01</td>
+                </tr>
+                <tr class="row">
+                    <td>Back-End</td>
+                    <td>Java Connectivity</td>
+                    <td>00:30:31</td>
+                    <td>2024-01-01</td>
+                </tr>
+                <tr class="row">
+                    <td id="col1">Back-End</td>
+                    <td id="col2">Java Connectivity</td>
+                    <td id="col3">00:30:31</td>
+                    <td>2024-01-01</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container_2">
+            <H3>TIMER</H3><br>
+        <div class="input-container">
+            <input type="text" placeholder="Task" id="task">
+            <input type="text" placeholder="Description" id="desc">
+            <button id="timer-button">START</button>
+        </div>
+
+        <div class="timer-container">
+            <p id="Hour">00</p><span>:</span><p id="minute">00</p><span>:</span><p id="sec">00</p>
+        <br><br> <label for="start" style="font-size: 15px;">Date:</label>
+
+    <input type="date" id="start" name="trip-start" value="2024-01-01" min="2024-01-01" max="2030-12-31" />
+        </div>
+        </div>
+
+        
+        <script src="action.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,104 @@
+p{
+    display: inline;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4bff8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #b9dae3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    animation: blink 2s infinite;
+}
+@keyframes blink {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 3px dotted #ef0000;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333436;
+    color: #fff;
+    cursor: pointer;
+}
+
+.timer-container {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#table caption {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.head{
+    background-color: #232c3b;
+    color: #d9cddf;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.row:nth-child(even) {
+    background-color: #aaaaaa;
+}
+
+#Hour,#sec,#minute{
+    background-color: #ffffff;
+}
+
+.container_2{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #bbccf0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(217, 217, 217, 0.1);
+}
+
+#start{
+    width:100px;
+    height: 20px;
+}
+h3{
+    text-align: center;
+    color: #000000;
+}
